@@ -1,0 +1,625 @@
+import warnings
+warnings.filterwarnings('ignore')
+warnings.simplefilter('ignore')
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains 
+from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium.common.exceptions import ElementClickInterceptedException
+
+
+
+import pandas as pd
+
+PATH='L:\MovieQu\chromedriver.exe'
+driver=webdriver.Chrome(PATH)
+
+try:
+    driver.get('https://www.fandango.com/')
+    driver.maximize_window()
+except TimeoutException:
+    # If the loading took too long, print message and try again
+    print("Loading took too much time!")
+
+# for searching the zipcode
+search=driver.find_element_by_name("q")
+print(search.is_enabled())
+
+zipcode=input('Enter The zipcode ')
+
+if type(zipcode)=='str':
+    
+    print('Enter Zipcode in Number')
+    zipcode=input('Enter The zipcode ')
+    search.send_keys(zipcode)
+    search.send_keys(Keys.RETURN)
+    
+elif len(zipcode)>4 and len(zipcode)<6:
+    time.sleep(5)
+    search.send_keys(zipcode)
+    search.send_keys(Keys.RETURN)
+else:
+    print('Len of zipcode is Wrong')
+    zipcode=int(input('Enter The zipcode '))
+    search.send_keys(zipcode)
+    search.send_keys(Keys.RETURN)
+
+print('done adding zip code',zipcode)
+
+try:
+    show_time1 = WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.ID, "page"))
+                    )
+
+                    #popup is identified and click Ok 
+
+    if  show_time1.find_element_by_xpath("//button[text()='GOT IT']").is_displayed():
+        show_time1.find_element_by_xpath("//button[text()='GOT IT']").click()
+        print('GOT IT is Clicked')
+                        
+finally:
+    pass
+
+
+
+ignored_exceptions=(NoSuchElementException,StaleElementReferenceException)
+xpath_loaction="//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li//div[1]//div[3]//span[2]"
+
+
+
+
+
+try:
+    #find the shows which are running in entered location
+        locations=WebDriverWait(driver, 20,ignored_exceptions=ignored_exceptions).until(
+            EC.presence_of_all_elements_located((By.XPATH,xpath_loaction
+        )))
+    #looping through all of the zipcode
+        for link_num,loc in enumerate(locations,1):
+            
+            time.sleep(5)
+            
+            loc=loc.text
+            print('loc',loc)
+            #if macthes with entered zipcode , open it
+            if loc[-5:]==zipcode:
+                print('zipcode matched at',link_num,'and zipcode is',zipcode)
+                
+                
+                records=[]
+                try:
+                    show_time1 = WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.ID, "page"))
+                    )
+
+                    #popup is identified and click Ok 
+
+                    if  show_time1.find_element_by_xpath("//button[text()='GOT IT']").is_displayed():
+                        show_time1.find_element_by_xpath("//button[text()='GOT IT']").click()
+                        print('GOT IT is Clicked')
+
+
+                    # total shows per zipcode=30033
+                    show_time1=len(driver.find_elements_by_xpath(
+                        "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul//li//ul//li//ol"))
+                    print('------------total number of show times for this zipcode--------',show_time1)
+
+
+                    #loop through show_time
+                    for i in range(1,show_time1+1):
+                        print('============row number is ============i=',i)
+                        
+                        check_for_luke_shows=len(driver.find_elements_by_xpath(
+                        "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul//li["+str(i)+"]//ul//li//ol"))
+                        print('There are total',check_for_luke_shows,'check_for_luke_shows')
+
+                        if check_for_luke_shows >1:
+                            for k in range(1,check_for_luke_shows+1):
+                                print('luke show number',k)
+
+                                show_time_per_movie=len(driver.find_elements_by_xpath(
+                                    "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul//li["+str(i)+"]//ul//li["+str(k)+"]//ol//li//a"))
+                                
+                                #loop through show times per movie
+                                for j in range(1,show_time_per_movie+1):
+                                    print('per movie show selected j=',j)             
+                                    driver.implicitly_wait(10) # seconds
+
+                                    print('i=>',i,'j=>',j)
+
+
+                                    #wait till webdriver loads
+                                    show_time1=WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH,
+                                                                                                           
+                                    "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul//li["+str(i)+"]//ul//li["+str(k)+"]//ol//li["+str(j)+"]//a")))
+                                    driver.execute_script("arguments[0].scrollIntoView();",show_time1)
+
+
+                                    show_timing=show_time1.text
+                                    print("current on show time",show_timing)
+
+                                    show_link=show_time1.get_attribute('href')
+                                    print("current show time url is",show_link)
+
+                                    time.sleep(2)
+                                    print('Clicking on current show time...',show_timing)
+
+                            #         scroll page
+                                    click_now=WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, 
+                                    "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul/li["+str(i)+"]//ul//ol//li["+str(j)+"]//a")))
+                                    driver.execute_script("arguments[0].scrollIntoView();",click_now)
+                                    click_now.click()
+
+
+
+                                    buy_ticket = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "page-container")))
+                                    movie_title=buy_ticket.find_element_by_xpath("//*[@id='movieTitle']")
+                                    movie_title=movie_title.text
+                                    print('printing the movie title',movie_title)
+
+                                    #movie rating
+                                    movie_rating=buy_ticket.find_element_by_class_name('rating')
+                                    if movie_rating.is_displayed():
+                                        movie_rating=movie_rating.text
+                                        movie_rating=movie_rating[0:5]
+                                        print('rating',movie_rating)
+                                    else:
+                                         print('No rating')        
+
+
+
+
+                                    # movie duration
+                                    movie_duration=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//p[1]")
+                                    if movie_duration.is_displayed():
+                                        movie_duration=movie_duration.text
+                                        print('Duration',movie_duration)
+                                    else:
+                                         print('No duration Data')   
+
+
+
+                                    if buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//h3").is_enabled():
+                                        theater_name=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//h3")
+                                        theater_name=theater_name.text
+                                        print('theater_name',theater_name)
+                                    else:
+                                        print('theater_name missing')
+
+                                    # theater_location
+
+                                    theater_location=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//p[2]")
+                                    if theater_location.is_displayed():
+                                        theater_location=theater_location.text
+                                        print('theater_location',theater_location)
+                                    else:
+                                         print('No theater_location')        
+
+
+                                    #Movie Date
+                                    movie_date=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[2]//h3")
+                                    movie_date=movie_date.text
+                                    print(movie_date)
+
+
+
+                                    #Auditorium Name
+                                    auditorium_no=buy_ticket.find_element_by_xpath("//*[@id='auditorium']")
+                                    auditorium_no=auditorium_no.text
+                                    print('auditorium number is',auditorium_no)
+
+
+
+                                    reserved_seating=buy_ticket.find_element_by_xpath("//*[@id='amenities']//a[1]")
+                                    if reserved_seating.is_displayed():
+                                        reserved_seating=reserved_seating.text
+                                        print('auditorium number is',reserved_seating)
+                                    else:
+                                         print('no reservation')
+
+
+                                    ticket_price=buy_ticket.find_element_by_xpath("//*[@id='TicketTypeLink_0']/div[1]")
+                                    ticket_price_print=buy_ticket.find_element_by_xpath("//*[@id='TicketTypeLink_0']//div[2]")
+
+                                    ticket_price_print=ticket_price_print.text
+                                    ticket_price=ticket_price.text
+                                    print('Seat is =>',ticket_price,', ticket price =>',ticket_price_print)
+
+
+                                    print('clicking on adult ticket....')
+                                    #Changed the xpath
+                                    ticket_price=driver.find_element_by_xpath(
+                                        "//*[@id='TicketTypeLink_0']//div[1]").click()
+
+
+
+                                    # scroll page
+                                    seat_seletion=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                        (By.XPATH, 
+                                        "//*[@id='TicketQuantitySubsection']//div[1]//fieldset//label[2]")))
+                                    driver.execute_script("arguments[0].scrollIntoView();", seat_seletion)
+
+                                    no_of_seat=seat_seletion.text
+
+                                    print('no_of seat selected',no_of_seat)
+                                    driver.implicitly_wait(2) # seconds
+                                   
+                                    try:
+                                        seat_number_1=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                            (By.XPATH, 
+                                            "//*[@id='Ticket_1']")))
+                                        driver.execute_script("arguments[0].scrollIntoView();", seat_number_1)
+                                        seat_seletion.click()
+
+
+                                        print('try block seat_selection')
+
+                                        
+
+                                    except ElementClickInterceptedException as e:
+                                        print(" seat_seletion.click() is failed to click !!!")
+                                        time.sleep(4)
+                                        seat_seletion=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                            (By.XPATH, 
+                                            "//*[@id='TicketQuantitySubsection']//div[1]//fieldset//label[2]")))
+
+                                        driver.execute_script("arguments[0].scrollIntoView();", seat_seletion)
+                                        time.sleep(4)
+                                        seat_seletion.click()  
+
+
+
+                                    seat_confirm=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                        (By.XPATH, "//button[text()='Next']"))).click()
+
+                                    choose_seat=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                        (By.XPATH, "//div[@class='section__module']//a"))).click()
+                                    print('wait going for next page')
+                                    time.sleep(2) # seconds
+                                    print('...')        
+                                    print('...')
+
+
+                            #         time.sleep(5) # seconds
+                                    print('waitng for 2 sec to popup')
+
+
+
+                            #         print('clicked ok Social Distance Seating ')
+
+                                    available = len(driver.find_elements_by_class_name('availableSeat'))
+                                    print('available seats are',"'",available,"'")
+
+                                    checkered = len(driver.find_elements_by_class_name('unavailableSeat'))
+                                    print('checkered seats are',"'",checkered,"'")
+
+                                    reserved = len(driver.find_elements_by_class_name('reservedSeat'))
+                                    print('reserved seats are',"'",reserved,"'")
+
+                                    total = available+reserved+checkered
+                                    print('total seats are',"'",total,"'")
+
+
+                                    #Going back to the show time page
+                        #             time.sleep(3)
+                                    records.append((theater_name,
+                                                        movie_title,
+                                                        zipcode,
+                                                        theater_location,
+                                                        show_link,
+                                                        show_timing,
+                                                        movie_date,
+                                                        auditorium_no,
+                                                        reserved_seating,
+                                                        no_of_seat,
+                                                        ticket_price_print,
+                                                        movie_duration,
+                                                        no_of_seat,
+                                                        total,
+                                                        reserved,
+                                                        checkered,
+                                                        available))
+
+                                    df=pd.DataFrame(records,columns=[
+                                                        'theater_name',
+                                                        'movie_title',
+                                                        'zipcode',
+                                                        'theater_location',
+                                                        'show_url',
+                                                        'show_timing',
+                                                        'movie_date',
+                                                        'auditorium_no',
+                                                        'reserved_seating',
+                                                        'no_of_seat',
+                                                        'ticket_price',
+                                                        'movie_duration',
+                                                        'no_of_seat',
+                                                        'total',
+                                                        'reserved',
+                                                        'checkered',
+                                                        'available'])
+                                    save_path='L:\\MovieQu\\Projects\\Fandango\\16_9_20\\'
+                                    df.to_csv(save_path+str(zipcode)+'_'+'test3_fandango.csv', index=False, encoding='utf-8')    
+                                    df=pd.read_csv(save_path+str(zipcode)+'_'+'test3_fandango.csv',encoding='utf-8')
+                                    print('added to csv')
+                                    print('------------------------------Next Show time-----------------------------------------')
+                                    print('please wait till redirect to show page....')
+                                    driver.get('https://www.fandango.com/'+zipcode+'_movietimes')
+                            print('luku shows completed')
+                            
+
+
+                    
+                            
+                        else:
+                            print('second for loop k=1')
+
+                            k=1
+                            
+                            # for one particular movie, Number of shows availble
+                            show_time_per_movie=len(driver.find_elements_by_xpath(
+                                "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul//li["+str(i)+"]//ul//li["+str(k)+"]//ol//li//a"))
+                            print('There are',show_time_per_movie,'show times for this movie')
+
+
+                            #loop through show times per movie
+                            for j in range(1,show_time_per_movie+1):
+                                print('per movie show selected j=',j)             
+                                driver.implicitly_wait(10) # seconds
+
+                                print('i=>',i,'j=>',j)
+
+
+                                #wait till webdriver loads
+                                show_time1=WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH,
+                                "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul//li["+str(i)+"]//ul//li[1]//ol//li["+str(j)+"]//a")))
+                                driver.execute_script("arguments[0].scrollIntoView();",show_time1)
+
+
+
+
+                                show_timing=show_time1.text
+                                print("current on show time",show_timing)
+
+                                show_link=show_time1.get_attribute('href')
+                                print("current show time url is",show_link)
+
+                                time.sleep(2)
+                                print('Clicking on current show time...',show_timing)
+
+                        #         scroll page
+                                click_now=WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, 
+                                "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li["+str(link_num)+"]//ul/li["+str(i)+"]//ul//ol//li["+str(j)+"]//a")))
+                                driver.execute_script("arguments[0].scrollIntoView();",click_now)
+                                click_now.click()
+
+
+
+                                buy_ticket = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.ID, "page-container")))
+                                movie_title=buy_ticket.find_element_by_xpath("//*[@id='movieTitle']")
+                                movie_title=movie_title.text
+                                print('printing the movie title',movie_title)
+
+                                #movie rating
+                                movie_rating=buy_ticket.find_element_by_class_name('rating')
+                                if movie_rating.is_displayed():
+                                    movie_rating=movie_rating.text
+                                    movie_rating=movie_rating[0:5]
+                                    print('rating',movie_rating)
+                                else:
+                                     print('No rating')        
+
+
+
+
+                                # movie duration
+                                movie_duration=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//p[1]")
+                                if movie_duration.is_displayed():
+                                    movie_duration=movie_duration.text
+                                    print('Duration',movie_duration)
+                                else:
+                                     print('No duration Data')   
+
+
+
+                                if buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//h3").is_enabled():
+                                    theater_name=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//h3")
+                                    theater_name=theater_name.text
+                                    print('theater_name',theater_name)
+                                else:
+                                    print('theater_name missing')
+
+                                # theater_location
+
+                                theater_location=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[1]//div//p[2]")
+                                if theater_location.is_displayed():
+                                    theater_location=theater_location.text
+                                    print('theater_location',theater_location)
+                                else:
+                                     print('No theater_location')        
+
+
+                                #Movie Date
+                                movie_date=buy_ticket.find_element_by_xpath("//*[@id='MovieInfoSection']//div[2]//h3")
+                                movie_date=movie_date.text
+                                print(movie_date)
+
+
+
+                                #Auditorium Name
+                                auditorium_no=buy_ticket.find_element_by_xpath("//*[@id='auditorium']")
+                                auditorium_no=auditorium_no.text
+                                print('auditorium number is',auditorium_no)
+
+
+
+                                reserved_seating=buy_ticket.find_element_by_xpath("//*[@id='amenities']//a[1]")
+                                if reserved_seating.is_displayed():
+                                    reserved_seating=reserved_seating.text
+                                    print('auditorium number is',reserved_seating)
+                                else:
+                                     print('no reservation')
+
+
+                                ticket_price=buy_ticket.find_element_by_xpath("//*[@id='TicketTypeLink_0']/div[1]")
+                                ticket_price_print=buy_ticket.find_element_by_xpath("//*[@id='TicketTypeLink_0']//div[2]")
+
+                                ticket_price_print=ticket_price_print.text
+                                ticket_price=ticket_price.text
+                                print('Seat is =>',ticket_price,', ticket price =>',ticket_price_print)
+
+
+                                print('clicking on adult ticket....')
+                                #Changed the xpath
+                                ticket_price=driver.find_element_by_xpath(
+                                    "//*[@id='TicketTypeLink_0']//div[1]").click()
+
+
+
+                                # scroll page
+                                seat_seletion=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                    (By.XPATH, 
+                                    "//*[@id='TicketQuantitySubsection']//div[1]//fieldset//label[2]")))
+                                driver.execute_script("arguments[0].scrollIntoView();", seat_seletion)
+
+                                no_of_seat=seat_seletion.text
+
+                                print('no_of seat selected',no_of_seat)
+                                driver.implicitly_wait(2) # seconds
+
+
+                                try:
+                                    seat_number_1=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                                (By.XPATH, 
+                                                "//*[@id='Ticket_1']")))
+                                    driver.execute_script("arguments[0].scrollIntoView();", seat_number_1)
+                                    seat_seletion.click()
+
+                                    print('try block seat_selection')
+
+                                except ElementClickInterceptedException as e:
+                                    print(" seat_seletion.click() is failed to click !!!")
+                                    time.sleep(4)
+                                    seat_seletion=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                                (By.XPATH, 
+                                                "//*[@id='TicketQuantitySubsection']//div[1]//fieldset//label[2]")))
+
+                                    driver.execute_script("arguments[0].scrollIntoView();", seat_seletion)
+                                    time.sleep(4)
+                                    seat_seletion.click()  
+
+
+
+                                seat_confirm=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                    (By.XPATH, "//button[text()='Next']"))).click()
+
+                                choose_seat=WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+                                    (By.XPATH, "//div[@class='section__module']//a"))).click()
+                                print('wait going for next page')
+                                time.sleep(2) # seconds
+                                print('...')        
+                                print('...')
+
+
+                        #         time.sleep(5) # seconds
+                                print('waitng for 2 sec to popup')
+
+
+
+                        #         print('clicked ok Social Distance Seating ')
+
+                                available = len(driver.find_elements_by_class_name('availableSeat'))
+                                print('available seats are',"'",available,"'")
+
+                                checkered = len(driver.find_elements_by_class_name('unavailableSeat'))
+                                print('checkered seats are',"'",checkered,"'")
+
+                                reserved = len(driver.find_elements_by_class_name('reservedSeat'))
+                                print('reserved seats are',"'",reserved,"'")
+
+                                total = available+reserved+checkered
+                                print('total seats are',"'",total,"'")
+
+
+                                #Going back to the show time page
+                    #             time.sleep(3)
+                                records.append((theater_name,
+                                                    movie_title,
+                                                    zipcode,
+                                                    theater_location,
+                                                    show_link,
+                                                    show_timing,
+                                                    movie_date,
+                                                    auditorium_no,
+                                                    reserved_seating,
+                                                    no_of_seat,
+                                                    ticket_price_print,
+                                                    movie_duration,
+                                                    no_of_seat,
+                                                    total,
+                                                    reserved,
+                                                    checkered,
+                                                    available))
+
+                                df=pd.DataFrame(records,columns=[
+                                                    'theater_name',
+                                                    'movie_title',
+                                                    'zipcode',
+                                                    'theater_location',
+                                                    'show_url',
+                                                    'show_timing',
+                                                    'movie_date',
+                                                    'auditorium_no',
+                                                    'reserved_seating',
+                                                    'no_of_seat',
+                                                    'ticket_price',
+                                                    'movie_duration',
+                                                    'no_of_seat',
+                                                    'total',
+                                                    'reserved',
+                                                    'checkered',
+                                                    'available'])
+                                save_path='L:\\MovieQu\\Projects\\Fandango\\17_9_20\\'
+                                df.to_csv(save_path+str(zipcode)+'_'+'test3_fandango.csv', index=False, encoding='utf-8')    
+                                df=pd.read_csv(save_path+str(zipcode)+'_'+'test3_fandango.csv',encoding='utf-8')
+                                print('added to csv')
+                                print('------------------------------Next Show time-----------------------------------------')
+                                print('please wait till redirect to show page....')
+                                driver.get('https://www.fandango.com/'+zipcode+'_movietimes')
+                                locations=WebDriverWait(driver, 20,ignored_exceptions=ignored_exceptions).until(EC.presence_of_all_elements_located((By.XPATH,
+                                    "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li//div[1]//div[3]//span[2]")))
+
+
+                except TimeoutException:
+                    # If the loading took too long, print message and try again
+                    print("Loading took too much time!")
+
+
+
+
+                finally:
+                    print('done with show times page')
+
+
+                
+                continue #stop iteration once we find the exact zipcode 
+
+
+
+                            #Else pickup the first occuring zipcode, becasue its near to the entered location
+            else:
+                print('going for first one',loc[-5:])
+                theater_name=WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//*[@id='page']//div//section[2]//div[1]//div[7]//ul//li[1]//ul//li//ul//li//ol//a")) #click on first
+                                                                            )
+                break
+
+                
+finally:
+    print('done with all location')
