@@ -1,0 +1,193 @@
+theater_name,movie_title,zipcode,theater_location,show_url,show_timing,movie_date,auditorium_no,reserved_seating,no_of_seat,ticket_price,movie_duration,no_of_seat,total,reserved,checkered,available
+RoadHouse Cinemas Scottsdale,The Broken Hearts Gallery,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031904&tid=AAXWK&sdate=2020-09-15+12:00&mid=223123&from=mov_det_showtimes,12:00p,"Tuesday, Sep 15 at 12:00 PM",Auditorium 6,Reserved seating,"1
+Senior (55+) tickets",$4.32,"PG-13, 1 Hr 48 Min","1
+Senior (55+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,The Broken Hearts Gallery,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031908&tid=AAXWK&sdate=2020-09-15+12:55&mid=223123&from=mov_det_showtimes,12:55p,"Tuesday, Sep 15 at 12:55 PM",Auditorium 1,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 48 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,The Broken Hearts Gallery,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031906&tid=AAXWK&sdate=2020-09-15+15:50&mid=223123&from=mov_det_showtimes,3:50p,"Tuesday, Sep 15 at 3:50 PM",Auditorium 4,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 48 Min","1
+Adult (13+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,The Broken Hearts Gallery,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031907&tid=AAXWK&sdate=2020-09-15+18:00&mid=223123&from=mov_det_showtimes,6:00p,"Tuesday, Sep 15 at 6:00 PM",Auditorium 1,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 48 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,The Broken Hearts Gallery,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031905&tid=AAXWK&sdate=2020-09-15+18:35&mid=223123&from=mov_det_showtimes,6:35p,"Tuesday, Sep 15 at 6:35 PM",Auditorium 4,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 48 Min","1
+Adult (13+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031878&tid=AAXWK&sdate=2020-09-15+11:55&mid=219762&from=mov_det_showtimes,11:55a,"Tuesday, Sep 15 at 11:55 AM",Auditorium 2,Reserved seating,"1
+Adult (13+) tickets",$5.40,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",99,0,0,99
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031875&tid=AAXWK&sdate=2020-09-15+12:25&mid=219762&from=mov_det_showtimes,12:25p,"Tuesday, Sep 15 at 12:25 PM",Auditorium 4,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031874&tid=AAXWK&sdate=2020-09-15+13:05&mid=219762&from=mov_det_showtimes,1:05p,"Tuesday, Sep 15 at 1:05 PM",Auditorium 5,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",85,0,0,85
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031871&tid=AAXWK&sdate=2020-09-15+14:25&mid=219762&from=mov_det_showtimes,2:25p,"Tuesday, Sep 15 at 2:25 PM",Auditorium 10,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",100,0,0,100
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031877&tid=AAXWK&sdate=2020-09-15+15:20&mid=219762&from=mov_det_showtimes,3:20p,"Tuesday, Sep 15 at 3:20 PM",Auditorium 2,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",99,2,4,93
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031873&tid=AAXWK&sdate=2020-09-15+16:30&mid=219762&from=mov_det_showtimes,4:30p,"Tuesday, Sep 15 at 4:30 PM",Auditorium 5,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",85,0,0,85
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031870&tid=AAXWK&sdate=2020-09-15+17:50&mid=219762&from=mov_det_showtimes,5:50p,"Tuesday, Sep 15 at 5:50 PM",Auditorium 10,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",100,10,17,73
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031876&tid=AAXWK&sdate=2020-09-15+18:45&mid=219762&from=mov_det_showtimes,6:45p,"Tuesday, Sep 15 at 6:45 PM",Auditorium 2,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",99,2,2,95
+RoadHouse Cinemas Scottsdale,Tenet,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031872&tid=AAXWK&sdate=2020-09-15+20:15&mid=219762&from=mov_det_showtimes,8:15p,"Tuesday, Sep 15 at 8:15 PM",Auditorium 5,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 2 Hr 30 Min","1
+Adult (13+) tickets",85,0,0,85
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031898&tid=AAXWK&sdate=2020-09-15+11:45&mid=223079&from=mov_det_showtimes,11:45a,"Tuesday, Sep 15 at 11:45 AM",Auditorium 7,Reserved seating,"1
+Adult (13+) tickets",$5.40,,"1
+Adult (13+) tickets",32,0,0,32
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031897&tid=AAXWK&sdate=2020-09-15+13:40&mid=223079&from=mov_det_showtimes,1:40p,"Tuesday, Sep 15 at 1:40 PM",Auditorium 13,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",14,1,4,9
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031901&tid=AAXWK&sdate=2020-09-15+14:40&mid=223079&from=mov_det_showtimes,2:40p,"Tuesday, Sep 15 at 2:40 PM",Auditorium 6,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031903&tid=AAXWK&sdate=2020-09-15+15:40&mid=223079&from=mov_det_showtimes,3:40p,"Tuesday, Sep 15 at 3:40 PM",Auditorium 1,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031900&tid=AAXWK&sdate=2020-09-15+17:00&mid=223079&from=mov_det_showtimes,5:00p,"Tuesday, Sep 15 at 5:00 PM",Auditorium 6,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031899&tid=AAXWK&sdate=2020-09-15+19:20&mid=223079&from=mov_det_showtimes,7:20p,"Tuesday, Sep 15 at 7:20 PM",Auditorium 6,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",63,0,0,63
+RoadHouse Cinemas Scottsdale,Bill & Ted Face The Music,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031902&tid=AAXWK&sdate=2020-09-15+20:40&mid=223079&from=mov_det_showtimes,8:40p,"Tuesday, Sep 15 at 8:40 PM",Auditorium 1,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,The New Mutants,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031880&tid=AAXWK&sdate=2020-09-15+12:00&mid=206666&from=mov_det_showtimes,12:00p,"Tuesday, Sep 15 at 12:00 PM",Auditorium 10,Reserved seating,"1
+Senior (55+) tickets",$4.32,"PG-13, 1 Hr 34 Min","1
+Senior (55+) tickets",100,0,0,100
+RoadHouse Cinemas Scottsdale,The New Mutants,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031879&tid=AAXWK&sdate=2020-09-15+14:35&mid=206666&from=mov_det_showtimes,2:35p,"Tuesday, Sep 15 at 2:35 PM",Auditorium 12,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 34 Min","1
+Adult (13+) tickets",13,0,0,13
+RoadHouse Cinemas Scottsdale,The New Mutants,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031883&tid=AAXWK&sdate=2020-09-15+14:55&mid=206666&from=mov_det_showtimes,2:55p,"Tuesday, Sep 15 at 2:55 PM",Auditorium 3,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 34 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,The New Mutants,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031882&tid=AAXWK&sdate=2020-09-15+17:30&mid=206666&from=mov_det_showtimes,5:30p,"Tuesday, Sep 15 at 5:30 PM",Auditorium 3,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 34 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,The New Mutants,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031881&tid=AAXWK&sdate=2020-09-15+19:55&mid=206666&from=mov_det_showtimes,7:55p,"Tuesday, Sep 15 at 7:55 PM",Auditorium 3,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 34 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,The Personal History Of David Copperfield,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031893&tid=AAXWK&sdate=2020-09-15+12:15&mid=220120&from=mov_det_showtimes,12:15p,"Tuesday, Sep 15 at 12:15 PM",Auditorium 14,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",9,2,2,5
+RoadHouse Cinemas Scottsdale,The Personal History Of David Copperfield,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031896&tid=AAXWK&sdate=2020-09-15+14:05&mid=220120&from=mov_det_showtimes,2:05p,"Tuesday, Sep 15 at 2:05 PM",Auditorium 7,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",32,0,0,32
+RoadHouse Cinemas Scottsdale,The Personal History Of David Copperfield,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031895&tid=AAXWK&sdate=2020-09-15+16:55&mid=220120&from=mov_det_showtimes,4:55p,"Tuesday, Sep 15 at 4:55 PM",Auditorium 7,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",32,0,0,32
+RoadHouse Cinemas Scottsdale,The Personal History Of David Copperfield,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031894&tid=AAXWK&sdate=2020-09-15+18:40&mid=220120&from=mov_det_showtimes,6:40p,"Tuesday, Sep 15 at 6:40 PM",Auditorium 13,Reserved seating,"1
+Adult (13+) tickets",$6.48,,"1
+Adult (13+) tickets",14,0,0,14
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031892&tid=AAXWK&sdate=2020-09-15+11:40&mid=223048&from=mov_det_showtimes,11:40a,"Tuesday, Sep 15 at 11:40 AM",Auditorium 8,Reserved seating,"1
+Adult (13+) tickets",$5.40,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031887&tid=AAXWK&sdate=2020-09-15+12:15&mid=223048&from=mov_det_showtimes,12:15p,"Tuesday, Sep 15 at 12:15 PM",Auditorium 12,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",13,0,0,13
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031891&tid=AAXWK&sdate=2020-09-15+14:05&mid=223048&from=mov_det_showtimes,2:05p,"Tuesday, Sep 15 at 2:05 PM",Auditorium 8,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031885&tid=AAXWK&sdate=2020-09-15+15:05&mid=223048&from=mov_det_showtimes,3:05p,"Tuesday, Sep 15 at 3:05 PM",Auditorium 14,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",9,0,0,9
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031890&tid=AAXWK&sdate=2020-09-15+16:30&mid=223048&from=mov_det_showtimes,4:30p,"Tuesday, Sep 15 at 4:30 PM",Auditorium 8,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031886&tid=AAXWK&sdate=2020-09-15+17:00&mid=223048&from=mov_det_showtimes,5:00p,"Tuesday, Sep 15 at 5:00 PM",Auditorium 12,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",13,0,0,13
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031884&tid=AAXWK&sdate=2020-09-15+17:30&mid=223048&from=mov_det_showtimes,5:30p,"Tuesday, Sep 15 at 5:30 PM",Auditorium 14,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",9,2,3,4
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031889&tid=AAXWK&sdate=2020-09-15+18:55&mid=223048&from=mov_det_showtimes,6:55p,"Tuesday, Sep 15 at 6:55 PM",Auditorium 8,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,Unhinged (2020),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031888&tid=AAXWK&sdate=2020-09-15+19:50&mid=223048&from=mov_det_showtimes,7:50p,"Tuesday, Sep 15 at 7:50 PM",Auditorium 7,Reserved seating,"1
+Adult (13+) tickets",$6.48,"R, 1 Hr 31 Min","1
+Adult (13+) tickets",32,0,0,32
+RoadHouse Cinemas Scottsdale,Words On Bathroom Walls,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031869&tid=AAXWK&sdate=2020-09-15+12:30&mid=223254&from=mov_det_showtimes,12:30p,"Tuesday, Sep 15 at 12:30 PM",Auditorium 11,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 51 Min","1
+Adult (13+) tickets",40,0,0,40
+RoadHouse Cinemas Scottsdale,Words On Bathroom Walls,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031868&tid=AAXWK&sdate=2020-09-15+15:15&mid=223254&from=mov_det_showtimes,3:15p,"Tuesday, Sep 15 at 3:15 PM",Auditorium 11,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 51 Min","1
+Adult (13+) tickets",40,0,0,40
+RoadHouse Cinemas Scottsdale,Words On Bathroom Walls,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031865&tid=AAXWK&sdate=2020-09-15+16:00&mid=223254&from=mov_det_showtimes,4:00p,"Tuesday, Sep 15 at 4:00 PM",Auditorium 13,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 51 Min","1
+Adult (13+) tickets",14,0,0,14
+RoadHouse Cinemas Scottsdale,Words On Bathroom Walls,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031867&tid=AAXWK&sdate=2020-09-15+18:20&mid=223254&from=mov_det_showtimes,6:20p,"Tuesday, Sep 15 at 6:20 PM",Auditorium 11,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 51 Min","1
+Adult (13+) tickets",40,0,0,40
+RoadHouse Cinemas Scottsdale,Words On Bathroom Walls,85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319031866&tid=AAXWK&sdate=2020-09-15+19:20&mid=223254&from=mov_det_showtimes,7:20p,"Tuesday, Sep 15 at 7:20 PM",Auditorium 12,Reserved seating,"1
+Adult (13+) tickets",$6.48,"PG-13, 1 Hr 51 Min","1
+Adult (13+) tickets",13,0,0,13
+RoadHouse Cinemas Scottsdale,Black Panther (2018),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319090792&tid=AAXWK&sdate=2020-09-15+11:50&mid=202991&from=mov_det_showtimes,11:50a,"Tuesday, Sep 15 at 11:50 AM",Auditorium 3,Reserved seating,"1
+Adult 5 dollars tickets",$5.00,2 Hr 14 Min,"1
+Adult 5 dollars tickets",46,0,0,46
+RoadHouse Cinemas Scottsdale,Black Panther (2018),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319090793&tid=AAXWK&sdate=2020-09-15+12:50&mid=202991&from=mov_det_showtimes,12:50p,"Tuesday, Sep 15 at 12:50 PM",Auditorium 9,Reserved seating,"1
+Adult 5 dollars tickets",$5.00,2 Hr 14 Min,"1
+Adult 5 dollars tickets",48,2,2,44
+RoadHouse Cinemas Scottsdale,Black Panther (2018),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319090791&tid=AAXWK&sdate=2020-09-15+16:10&mid=202991&from=mov_det_showtimes,4:10p,"Tuesday, Sep 15 at 4:10 PM",Auditorium 9,Reserved seating,"1
+Adult 5 dollars tickets",$5.00,2 Hr 14 Min,"1
+Adult 5 dollars tickets",48,2,4,42
+RoadHouse Cinemas Scottsdale,Black Panther (2018),85250,"9090 E. Indian Bend Road
+Scottsdale, AZ 85250",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319090790&tid=AAXWK&sdate=2020-09-15+19:30&mid=202991&from=mov_det_showtimes,7:30p,"Tuesday, Sep 15 at 7:30 PM",Auditorium 9,Reserved seating,"1
+Adult 5 dollars tickets",$5.00,2 Hr 14 Min,"1
+Adult 5 dollars tickets",48,0,0,48

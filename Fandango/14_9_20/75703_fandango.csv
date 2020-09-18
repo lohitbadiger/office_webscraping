@@ -1,0 +1,33 @@
+theater_name,movie_title,zipcode,theater_location,show_url,show_timing,movie_date,auditorium_no,reserved_seating,no_of_seat,ticket_price,movie_duration,no_of_seat,total,reserved,checkered,available
+Studio Movie Grill Tyler,Rent-A-Pal,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993160&tid=AAXNV&sdate=2020-09-15+18:15&mid=223404&from=mov_det_showtimes,6:15p,"Tuesday, Sep 15 at 6:15 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",98,0,3,95
+Studio Movie Grill Tyler,Rent-A-Pal,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993161&tid=AAXNV&sdate=2020-09-15+21:00&mid=223404&from=mov_det_showtimes,9:00p,"Tuesday, Sep 15 at 9:00 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",98,0,3,95
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993060&tid=AAXNV&sdate=2020-09-15+15:00&mid=219762&from=mov_det_showtimes,3:00p,"Tuesday, Sep 15 at 3:00 PM",Auditorium 1,Reserved seating,"1
+Adult tickets",$6.50,"PG-13, 2 Hr 30 Min","1
+Adult tickets",283,0,9,274
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993119&tid=AAXNV&sdate=2020-09-15+16:45&mid=219762&from=mov_det_showtimes,4:45p,"Tuesday, Sep 15 at 4:45 PM",Auditorium 5,Reserved seating,"1
+Adult tickets",$6.50,"PG-13, 2 Hr 30 Min","1
+Adult tickets",123,2,5,116
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993134&tid=AAXNV&sdate=2020-09-15+18:00&mid=219762&from=mov_det_showtimes,6:00p,"Tuesday, Sep 15 at 6:00 PM",Auditorium 6,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",127,4,13,110
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993061&tid=AAXNV&sdate=2020-09-15+19:00&mid=219762&from=mov_det_showtimes,7:00p,"Tuesday, Sep 15 at 7:00 PM",Auditorium 1,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",283,0,9,274
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993140&tid=AAXNV&sdate=2020-09-15+20:00&mid=219762&from=mov_det_showtimes,8:00p,"Tuesday, Sep 15 at 8:00 PM",Auditorium 7,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",0,0,0,0
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993120&tid=AAXNV&sdate=2020-09-15+20:30&mid=219762&from=mov_det_showtimes,8:30p,"Tuesday, Sep 15 at 8:30 PM",Auditorium 5,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",0,0,0,0

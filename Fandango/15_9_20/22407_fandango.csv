@@ -1,0 +1,45 @@
+theater_name,movie_title,zipcode,theater_location,show_url,show_timing,movie_date,auditorium_no,reserved_seating,no_of_seat,ticket_price,movie_duration,no_of_seat,total,reserved,checkered,available
+Regal Fredericksburg & IMAX,Blackbird (2020),22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318906200&tid=AAEQW&sdate=2020-09-15+19:00&mid=223340&from=mov_det_showtimes,7:00p,"Tuesday, Sep 15 at 7:00 PM",Auditorium 9,Reserved seating,"1
+Fathom General Admission tickets",$14.84,"R, 1 Hr 37 Min","1
+Fathom General Admission tickets",120,0,66,54
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318906005&tid=AAEQW&sdate=2020-09-15+13:10&mid=223123&from=mov_det_showtimes,1:10p,"Tuesday, Sep 15 at 1:10 PM",Auditorium 13,Reserved seating,"1
+Adult tickets",$9.00,"PG-13, 1 Hr 48 Min","1
+Adult tickets",100,0,48,52
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318905999&tid=AAEQW&sdate=2020-09-15+14:00&mid=223123&from=mov_det_showtimes,2:00p,"Tuesday, Sep 15 at 2:00 PM",Auditorium 11,Reserved seating,"1
+Adult tickets",$9.00,"PG-13, 1 Hr 48 Min","1
+Adult tickets",243,0,125,118
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318905991&tid=AAEQW&sdate=2020-09-15+14:30&mid=223123&from=mov_det_showtimes,2:30p,"Tuesday, Sep 15 at 2:30 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$9.00,"PG-13, 1 Hr 48 Min","1
+Adult tickets",91,0,52,39
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318906006&tid=AAEQW&sdate=2020-09-15+16:00&mid=223123&from=mov_det_showtimes,4:00p,"Tuesday, Sep 15 at 4:00 PM",Auditorium 13,Reserved seating,"1
+Adult tickets",$12.07,"PG-13, 1 Hr 48 Min","1
+Adult tickets",100,4,50,46
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318906000&tid=AAEQW&sdate=2020-09-15+17:10&mid=223123&from=mov_det_showtimes,5:10p,"Tuesday, Sep 15 at 5:10 PM",Auditorium 11,Reserved seating,"1
+Adult tickets",$12.07,"PG-13, 1 Hr 48 Min","1
+Adult tickets",243,0,125,118
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318905992&tid=AAEQW&sdate=2020-09-15+17:20&mid=223123&from=mov_det_showtimes,5:20p,"Tuesday, Sep 15 at 5:20 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$12.07,"PG-13, 1 Hr 48 Min","1
+Adult tickets",91,0,52,39
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318906007&tid=AAEQW&sdate=2020-09-15+19:00&mid=223123&from=mov_det_showtimes,7:00p,"Tuesday, Sep 15 at 7:00 PM",Auditorium 13,Reserved seating,"1
+Adult tickets",$12.07,"PG-13, 1 Hr 48 Min","1
+Adult tickets",0,0,0,0
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318906001&tid=AAEQW&sdate=2020-09-15+20:00&mid=223123&from=mov_det_showtimes,8:00p,"Tuesday, Sep 15 at 8:00 PM",Auditorium 11,Reserved seating,"1
+Adult tickets",$12.07,"PG-13, 1 Hr 48 Min","1
+Adult tickets",0,0,0,0
+Regal Fredericksburg & IMAX,The Broken Hearts Gallery,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318905993&tid=AAEQW&sdate=2020-09-15+20:20&mid=223123&from=mov_det_showtimes,8:20p,"Tuesday, Sep 15 at 8:20 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$12.07,"PG-13, 1 Hr 48 Min","1
+Adult tickets",91,0,52,39
+Regal Fredericksburg & IMAX,Tenet: The IMAX 2D Experience,22407,"3301 Plank Road Route 3W
+Fredericksburg, VA 22401",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318905970&tid=AAEQW&sdate=2020-09-15+12:30&mid=223279&from=mov_det_showtimes,12:30p,"Tuesday, Sep 15 at 12:30 PM",Auditorium 1,IMAX,"1
+Adult tickets",$13.97,"PG-13, 2 Hr 30 Min","1
+Adult tickets",0,0,0,0

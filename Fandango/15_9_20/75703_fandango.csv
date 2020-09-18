@@ -1,0 +1,93 @@
+theater_name,movie_title,zipcode,theater_location,show_url,show_timing,movie_date,auditorium_no,reserved_seating,no_of_seat,ticket_price,movie_duration,no_of_seat,total,reserved,checkered,available
+Studio Movie Grill Tyler,Rent-A-Pal,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993160&tid=AAXNV&sdate=2020-09-15+18:15&mid=223404&from=mov_det_showtimes,6:15p,"Tuesday, Sep 15 at 6:15 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",98,0,3,95
+Studio Movie Grill Tyler,Rent-A-Pal,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993161&tid=AAXNV&sdate=2020-09-15+21:00&mid=223404&from=mov_det_showtimes,9:00p,"Tuesday, Sep 15 at 9:00 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",98,0,3,95
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993060&tid=AAXNV&sdate=2020-09-15+15:00&mid=219762&from=mov_det_showtimes,3:00p,"Tuesday, Sep 15 at 3:00 PM",Auditorium 1,Reserved seating,"1
+Adult tickets",$6.50,"PG-13, 2 Hr 30 Min","1
+Adult tickets",283,0,9,274
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993119&tid=AAXNV&sdate=2020-09-15+16:45&mid=219762&from=mov_det_showtimes,4:45p,"Tuesday, Sep 15 at 4:45 PM",Auditorium 5,Reserved seating,"1
+Adult tickets",$6.50,"PG-13, 2 Hr 30 Min","1
+Adult tickets",123,2,5,116
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993134&tid=AAXNV&sdate=2020-09-15+18:00&mid=219762&from=mov_det_showtimes,6:00p,"Tuesday, Sep 15 at 6:00 PM",Auditorium 6,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",127,4,13,110
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993061&tid=AAXNV&sdate=2020-09-15+19:00&mid=219762&from=mov_det_showtimes,7:00p,"Tuesday, Sep 15 at 7:00 PM",Auditorium 1,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",283,0,9,274
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993140&tid=AAXNV&sdate=2020-09-15+20:00&mid=219762&from=mov_det_showtimes,8:00p,"Tuesday, Sep 15 at 8:00 PM",Auditorium 7,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",139,0,5,134
+Studio Movie Grill Tyler,Tenet,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993120&tid=AAXNV&sdate=2020-09-15+20:30&mid=219762&from=mov_det_showtimes,8:30p,"Tuesday, Sep 15 at 8:30 PM",Auditorium 5,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 2 Hr 30 Min","1
+Adult tickets",123,0,1,122
+Studio Movie Grill Tyler,Bill & Ted Face The Music,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993159&tid=AAXNV&sdate=2020-09-15+15:45&mid=223079&from=mov_det_showtimes,3:45p,"Tuesday, Sep 15 at 3:45 PM",Auditorium 8,Reserved seating,"1
+Adult tickets",$6.50,,"1
+Adult tickets",98,0,3,95
+Studio Movie Grill Tyler,Bill & Ted Face The Music,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993199&tid=AAXNV&sdate=2020-09-15+18:45&mid=223079&from=mov_det_showtimes,6:45p,"Tuesday, Sep 15 at 6:45 PM",Auditorium 10,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",75,2,2,71
+Studio Movie Grill Tyler,Fatima (2020),75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993133&tid=AAXNV&sdate=2020-09-15+15:00&mid=222796&from=mov_det_showtimes,3:00p,"Tuesday, Sep 15 at 3:00 PM",Auditorium 6,Reserved seating,"1
+Adult tickets",$6.50,1 Hr 53 Min,"1
+Adult tickets",127,0,5,122
+Studio Movie Grill Tyler,Fatima (2020),75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993139&tid=AAXNV&sdate=2020-09-15+16:45&mid=222796&from=mov_det_showtimes,4:45p,"Tuesday, Sep 15 at 4:45 PM",Auditorium 7,Reserved seating,"1
+Adult tickets",$6.50,1 Hr 53 Min,"1
+Adult tickets",139,0,5,134
+Studio Movie Grill Tyler,The New Mutants,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993081&tid=AAXNV&sdate=2020-09-15+16:30&mid=206666&from=mov_det_showtimes,4:30p,"Tuesday, Sep 15 at 4:30 PM",Auditorium 2,Reserved seating,"1
+Adult tickets",$6.50,"PG-13, 1 Hr 34 Min","1
+Adult tickets",117,0,1,116
+Studio Movie Grill Tyler,The New Mutants,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993082&tid=AAXNV&sdate=2020-09-15+19:15&mid=206666&from=mov_det_showtimes,7:15p,"Tuesday, Sep 15 at 7:15 PM",Auditorium 2,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 1 Hr 34 Min","1
+Adult tickets",117,0,1,116
+Studio Movie Grill Tyler,The Personal History Of David Copperfield,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993218&tid=AAXNV&sdate=2020-09-15+18:30&mid=220120&from=mov_det_showtimes,6:30p,"Tuesday, Sep 15 at 6:30 PM",Auditorium 11,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",117,0,1,116
+Studio Movie Grill Tyler,Unhinged (2020),75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993102&tid=AAXNV&sdate=2020-09-15+17:00&mid=223048&from=mov_det_showtimes,5:00p,"Tuesday, Sep 15 at 5:00 PM",Auditorium 4,Reserved seating,"1
+Adult tickets",$9.74,"R, 1 Hr 31 Min","1
+Adult tickets",98,0,1,97
+Studio Movie Grill Tyler,Unhinged (2020),75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993103&tid=AAXNV&sdate=2020-09-15+19:45&mid=223048&from=mov_det_showtimes,7:45p,"Tuesday, Sep 15 at 7:45 PM",Auditorium 4,Reserved seating,"1
+Adult tickets",$8.66,"R, 1 Hr 31 Min","1
+Adult tickets",98,0,1,97
+Studio Movie Grill Tyler,Words On Bathroom Walls,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993177&tid=AAXNV&sdate=2020-09-15+17:15&mid=223254&from=mov_det_showtimes,5:15p,"Tuesday, Sep 15 at 5:15 PM",Auditorium 9,Reserved seating,"1
+Adult tickets",$8.66,"PG-13, 1 Hr 51 Min","1
+Adult tickets",97,0,1,96
+Studio Movie Grill Tyler,The Tax Collector (2020),75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993178&tid=AAXNV&sdate=2020-09-15+20:15&mid=223164&from=mov_det_showtimes,8:15p,"Tuesday, Sep 15 at 8:15 PM",Auditorium 9,Reserved seating,"1
+Adult tickets",$8.66,,"1
+Adult tickets",97,0,1,96
+Studio Movie Grill Tyler,Creed (2015),75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319185555&tid=AAXNV&sdate=2020-09-15+16:15&mid=181117&from=mov_det_showtimes,4:15p,"Tuesday, Sep 15 at 4:15 PM",Auditorium 3,Reserved seating,"1
+SMG Classics tickets",$5.41,"PG-13, 2 Hr 13 Min","1
+SMG Classics tickets",89,0,0,89
+Studio Movie Grill Tyler,The Blind Side,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993198&tid=AAXNV&sdate=2020-09-15+15:30&mid=124539&from=mov_det_showtimes,3:30p,"Tuesday, Sep 15 at 3:30 PM",Auditorium 10,Reserved seating,"1
+SMG Classics tickets",$5.41,"PG-13, 2 Hr 6 Min","1
+SMG Classics tickets",75,0,0,75
+Studio Movie Grill Tyler,Risky Business,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=319185556&tid=AAXNV&sdate=2020-09-15+19:30&mid=30988&from=mov_det_showtimes,7:30p,"Tuesday, Sep 15 at 7:30 PM",Auditorium 3,Reserved seating,"1
+SMG Classics tickets",$5.41,"R, 1 Hr 38 Min","1
+SMG Classics tickets",89,0,0,89
+Studio Movie Grill Tyler,The Lego Batman Movie,75703,"8954 S. Broadway Ave
+Tyler, TX 75703",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318993217&tid=AAXNV&sdate=2020-09-15+15:20&mid=191368&from=mov_det_showtimes,3:20p,"Tuesday, Sep 15 at 3:20 PM",Auditorium 11,Reserved seating,"1
+SMG Classics tickets",$5.41,1 Hr 46 Min,"1
+SMG Classics tickets",117,0,1,116

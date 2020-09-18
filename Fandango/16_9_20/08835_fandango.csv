@@ -1,0 +1,5 @@
+theater_name,movie_title,zipcode,theater_location,show_url,show_timing,movie_date,auditorium_no,reserved_seating,no_of_seat,ticket_price,movie_duration,no_of_seat,total,reserved,checkered,available
+Reading Cinemas Manville with Titan Luxe,The Broken Hearts Gallery,08835,"180 N Main Street
+Manville, NJ 08835",https://tickets.fandango.com/Transaction/Ticketing/ticketboxoffice.aspx?row_count=318953848&tid=AANJG&sdate=2020-09-16+14:10&mid=223123&from=mov_det_showtimes,2:10p,"Wednesday, Sep 16 at 2:10 PM",Screen 8,Reserved seating,"1
+Adult tickets",$12.00,"PG-13, 1 Hr 48 Min","1
+Adult tickets",51,0,0,51
